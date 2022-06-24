@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* var-color:  */
+
+:root {
+  --pink-color: hotpink;
+  --main-color: linear-gradient(45deg, #d16ba5, #ba83ca);
+  --black-color: #000000;
+  --background2: linear-gradient(
+    45deg,
+    var(--main-color),
+    var(--pink-color),
+  );
+  --background3: linear-gradient(45deg, #d16ba5, #41dfff 70%), no-repeat;
+  --sub-color: #c6ff00;
+}
+body {
+  background: var(--background);
+}
+
+h1 {
+  color: var(--pink-color);
+}
+.btn {
+  margin-top: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(228, 43, 43);
+  cursor: pointer;
+  border-radius: 8px;
+  width: 80px;
+}
+.btn1 {
+  background-color: greenyellow;
+}
